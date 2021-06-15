@@ -1,0 +1,6 @@
+<h1>CSV to DB Converter</h1>
+<form action="" method="post">
+{% csrf_token %}
+<label>Enter Table Name:</label><br><input type="text" name="saver" required><br><br>
+<input type="file" name="filename" required><br><br>
+<input type="submit">
